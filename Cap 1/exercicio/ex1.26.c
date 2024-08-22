@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+
+    float celsius;
+    float fahrenheit;
+    printf("Temperatura em graus Celsius: ");
+    scanf("%f", &celsius);
+
+    fahrenheit = (celsius * 1.8) + 32;
+    printf("%.2f graus Celsius correspondem a %.2f graus Fahrenheit", celsius, fahrenheit);
+    return 0;
+}
